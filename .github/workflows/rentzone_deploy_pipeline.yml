@@ -326,7 +326,7 @@ jobs:
       - name: Download Flyway
         run: |
           wget -qO- https://repo1.maven.org/maven2/org/flywaydb/flyway-commandline/${{ env.FLYWAY_VERSION }}/flyway-commandline-${{ env.FLYWAY_VERSION }}-linux-x64.tar.gz | tar xvz && sudo ln -s `pwd`/flyway-${{ env.FLYWAY_VERSION }}/flyway /usr/local/bin 
-
+        continue-on-error: true
       - name: Remove the placeholder (sql) directory
         run: |
           rm -rf flyway-${{ env.FLYWAY_VERSION }}/sql/
