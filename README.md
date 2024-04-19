@@ -7,10 +7,14 @@
 Welcome to this CICD pipeline powered by GitHub Actions, designed to seamlessly deploy a dynamic web applications on AWS infrastructure. 
 
 # Project Overview
-In this project, we leverage the power of GitHub Actions to automate the entire deployment process, from building Docker images to migrating data into Amazon RDS using flyway. By leveraging AWS services such as ECS, ECR, and RDS, and using Terraform for Infrastructure as Code, we create a robust and scalable infrastructure.
+From provisioning the infrastructure using Terraform, to continuous integration (CI) with GitHub Actions, our project seamlessly orchestrates every step of the deployment process. By automating tasks such as building and pushing Docker images to ECR and migrating data into Amazon RDS, we demonstrate the full potential of CI/CD pipelines in driving efficiency and accelerating software delivery. This integration not only streamlines the deployment workflow but also ensures consistent quality and reliability at every stage.
+
+# Main AWS services and tools utilized
+- ECR, ECS, RDS, Route 53, Load Balancer, Docker, Git, Terraform
 
 ## Directory layout
-- [iac directory](iac)
+- [terrafrom directory](iac)
+
 # Key Features
 
 - **Automated Deployment:** This CICD pipeline automates the deployment process, saving you time and effort.
