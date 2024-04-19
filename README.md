@@ -14,6 +14,7 @@ From provisioning the infrastructure using Terraform, to continuous integration 
 
 ## Directory layout
 - [terrafrom directory](iac)
+- [Architecture Diagram](Architecture)
 
 # Key Features
 
