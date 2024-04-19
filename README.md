@@ -13,7 +13,7 @@ From provisioning the infrastructure using Terraform, to continuous integration 
 - ECR, ECS, RDS, Route 53, Load Balancer, Docker, Git, Terraform
 
 ## Directory layout
-- [terrafrom directory](iac)
+- [Terraform directory](iac)
 - [Architecture Diagram](Architecture-Diagram.png)
 
 # Key Features
