@@ -365,7 +365,7 @@ jobs:
       - name: Stop EC2 runner
         uses: machulav/ec2-github-runner@v2
         with:
-          mode: Stop
+          mode: stop
           github-token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
           label: ${{ needs.start_runner.outputs.label }}
           ec2-instance-id: ${{ needs.start_runner.outputs.ec2-instance-id }}
