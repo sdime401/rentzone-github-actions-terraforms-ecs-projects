@@ -1,5 +1,5 @@
-#                                               CICD Pipeline with GitHub Actions
-#                                                Deploy a Dynamic Web App on AWS
+# CICD pipeline with GitHub Actions
+                                                
 
 [![Rentzone ECS  Workflow](https://github.com/sdime401/rentzone-github-actions-terraforms-ecs-projects/actions/workflows/rentzone_deploy_pipeline.yml/badge.svg)](https://github.com/sdime401/rentzone-github-actions-terraforms-ecs-projects/actions/workflows/rentzone_deploy_pipeline.yml)
 
@@ -11,9 +11,9 @@ In this project, we leverage the power of GitHub Actions to automate the entire 
 
 # Key Features
 
-- Automated Deployment: This CICD pipeline automates the deployment process, saving you time and effort.
+- **Automated Deployment:** This CICD pipeline automates the deployment process, saving you time and effort.
 
-- Infrastructure as Code with Terraform: Utilize Terraform to define, provision, and manage the AWS infrastructure in a declarative manner, ensuring consistency and reliability.
+- **Infrastructure as Code with Terraform:** Utilize Terraform to define, provision, and manage the AWS infrastructure in a declarative manner, ensuring consistency and reliability.
 
 - Self-hosted Runners: Utilize self-hosted GitHub Actions runners to build and push Docker images securely, ensuring efficient deployment workflows.
 
@@ -26,9 +26,9 @@ In this project, we leverage the power of GitHub Actions to automate the entire 
 
 To get started with the CICD pipeline, refer to the renzone_deploy_pipeline.yml with each jobs defined for each of the following steps:
 
-- [ Configure AWS Credentials: Set up AWS credentials with appropriate permissions to access AWS services.]
+- Configure AWS Credentials: Set up AWS credentials with appropriate permissions to access AWS services.
 
-- Provision Infrastructure with Terraform: Use Terraform to define the AWS infrastructure as code. Apply the Terraform configuration to provision the necessary resources for hosting the application.
+- Provision Infrastructure with Terraform: Use Terraform to define the AWS infrastructure as code. Update the `env` `TERRAFORM_ACTION` with `apply` to build the AWS infrastructure or `destroy` to destroy the infrastruscture.
 
 - Create ECR Repository: Set up an Elastic Container Registry (ECR) repository to store the Docker images.
 
