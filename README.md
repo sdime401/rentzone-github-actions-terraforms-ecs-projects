@@ -49,7 +49,7 @@ To get started with the CICD pipeline, refer to the renzone_deploy_pipeline.yml 
 
 - **Stop Self-hosted Runner:** Once deployment is complete, stop the self-hosted GitHub Actions runner.
 
-- **Create ECS Task Definition:** Define your application's runtime requirements and configurations with ECS task definitions.
+- **Create ECS Task Definition:** Define the application's runtime requirements and configurations with ECS task definitions.
 
-- **Restart ECS Service:** Restart your ECS service to apply the latest changes and ensure seamless deployment of your web application.
+- **Restart ECS Service:** Restart the ECS service to apply the latest changes and ensure seamless deployment of your web application.
 
