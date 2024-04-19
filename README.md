@@ -1,10 +1,10 @@
 #                                               **CICD Pipeline with GitHub Actions**
-#                                                  Deploy a Dynamic Web App on AWS
+                                                  Deploy a Dynamic Web App on AWS
 
 [![Rentzone ECS  Workflow](https://github.com/sdime401/rentzone-github-actions-terraforms-ecs-projects/actions/workflows/rentzone_deploy_pipeline.yml/badge.svg)](https://github.com/sdime401/rentzone-github-actions-terraforms-ecs-projects/actions/workflows/rentzone_deploy_pipeline.yml)
 
 
-Welcome to this cutting-edge CICD pipeline powered by GitHub Actions, designed to seamlessly deploy a dynamic web applications on AWS infrastructure. This comprehensive guide will walk you through the steps to effortlessly configure, build, and deploy your app, ensuring rapid and reliable deployment with every update.
+Welcome to this CICD pipeline powered by GitHub Actions, designed to seamlessly deploy a dynamic web applications on AWS infrastructure. 
 
 ## **Project Overview**
 In this project, we leverage the power of GitHub Actions to automate the entire deployment process, from building Docker images to migrating data into Amazon RDS using flyway. By leveraging AWS services such as ECS, ECR, and RDS, and using Terraform for Infrastructure as Code, we create a robust and scalable infrastructure.
