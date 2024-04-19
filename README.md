@@ -1,4 +1,4 @@
-# ECS project with Terraform and GitHub Actions CICD pipeline  
+# ECS project with Terraform and GitHub Actions 
                                                 
 
 [![Rentzone ECS  Workflow](https://github.com/sdime401/rentzone-github-actions-terraforms-ecs-projects/actions/workflows/rentzone_deploy_pipeline.yml/badge.svg)](https://github.com/sdime401/rentzone-github-actions-terraforms-ecs-projects/actions/workflows/rentzone_deploy_pipeline.yml)
