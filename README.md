@@ -53,3 +53,4 @@ To get started with the CICD pipeline, refer to the renzone_deploy_pipeline.yml 
 
 - **Restart ECS Service:** Restart the ECS service to apply the latest changes and ensure seamless deployment of your web application.
 
+
